@@ -145,8 +145,8 @@ ol {
 .title {
   font-family: Oswald;
   font-weight: 700;
-  font-style: Bold;
   font-size: 75px;
+  font-style: Bold;
   line-height: 94%;
   text-transform: uppercase;
 }
@@ -166,26 +166,26 @@ ol {
 }
 
 .search-form__fieldset {
+  width: 100%;
+  margin: 0;
   border: none;
   padding: 0;
-  margin: 0;
-  width: 100%;
 }
 
 .search-form__fieldset-title {
+  margin-bottom: 10px;
   font-family: Fira Sans Condensed;
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
-  margin-bottom: 10px;
+  font-style: Regular;
 }
 
 .search-form__pseudo-checkbox {
+  position: relative;
   display: inline-block;
   width: 19px;
   height: 19px;
   border: 2px solid #fff;
-  position: relative;
   cursor: pointer;
 }
 
@@ -195,23 +195,23 @@ ol {
 
 .search-form__textfield {
   width: 100%;
-  color: #fff;
-  background-color: black;
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: black;
 }
 
 .search-form__submit-button {
   width: 73%;
   height: 34px;
-  background-color: #000000;
+  border: 1px solid #fff;
   color: #fff;
   font-family: Fira Sans Condensed;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
-  border: 1px solid #fff;
+  font-style: Bold;
+  background-color: #000000;
   cursor: pointer;
 }
 
@@ -221,13 +221,13 @@ ol {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  position: absolute;
+  width: 1px;
   height: 1px;
   overflow: hidden;
-  position: absolute;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   white-space: nowrap;
-  width: 1px;
 } 
 
 .search-form__checkbox-list {
@@ -242,8 +242,8 @@ ol {
 }
 
 .content__list li:focus {
-  outline: none;
   border: 1px solid white;
+  outline: none;
 }
   
 .content__list a:hover {
@@ -258,8 +258,8 @@ ol {
 
 .content__list li {
   display: block;
-  padding: 0px 5px;
   border: 1px solid transparent;
+  padding: 0px 5px;
 }
 
 .content__list li:focus {
@@ -271,15 +271,15 @@ ol {
 }
 
 .more-button {      
-  width: 100%;                 
-  padding: 10px 0;        
+  width: 100%;
+  border: 1px solid #fff;                 
+  padding: 10px 0;
+  color: #fff;        
   font-family: Fira Sans Condensed;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
-  color: #fff;
+  font-style: Bold;
   background-color: #000;
-  border: 1px solid #fff;
   cursor: pointer;
 }
 
