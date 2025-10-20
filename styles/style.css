@@ -56,9 +56,8 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 9fr 3fr; /* левая часть (видео + форма) и правая (детали) */
-  grid-template-rows: auto 1fr;   /* верх: видео, низ: форма (если нужно) */
-  gap: 20px;                      /* расстояние между колонками */
+  grid-template-columns: 9fr 3fr;
+  grid-template-rows: auto 1fr;   
   max-width: 1200px;
   margin: 133px 20px;
 }
